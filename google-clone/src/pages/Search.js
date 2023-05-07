@@ -13,7 +13,10 @@ const Search = ({ hideButtons = false }) => {
   const search = (e) => {
     e.preventDefault(); //prevening the refresh on clicking  the search button
     // console.log("you hit the search button");
-    dispatch({ type: actionTypes.SET_SEARCH_TERM, term: input });
+    dispatch({ 
+        type: actionTypes.SET_SEARCH_TERM,
+         term: input
+    });
     history(`/search`);
   };
 
