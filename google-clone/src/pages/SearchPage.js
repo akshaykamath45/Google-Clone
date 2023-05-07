@@ -97,7 +97,7 @@ googlelogo/2x/googlelogo_color_272x92dp.png"
                 {item.displayLink}
               </a>
 
-              <a className="searchPage_resultTitle" href={item.title}>
+              <a className="searchPage_resultTitle" href={item.link}>
                 <h2>{item.title}</h2>
               </a>
               <p className="searchPage_resultSnippet">{item.snippet}</p>
