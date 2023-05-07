@@ -32,7 +32,7 @@ const Home = () => {
         />
         <div className="home_inputContainer">
           {/* Search */}
-         
+          <Search />
         </div>
       </div>
     </div>
