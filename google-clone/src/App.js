@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home";
-import Search from "./pages/Search";
+import Search from "./components/Search";
 import { Routes, Route, Link } from "react-router-dom";
 import  SearchPage  from "./pages/SearchPage";
 function App() {

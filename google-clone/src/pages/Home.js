@@ -3,7 +3,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import { Avatar } from "@mui/material";
 import AppsIcon from "@mui/icons-material/Apps";
-import Search from "./Search";
+import Search from "../components/Search";
 const Home = () => {
   return (
     <div className="home">
@@ -12,13 +12,13 @@ const Home = () => {
           {/* Link -->About*/}
           <Link to="/">About</Link>
           {/* Link -->Store*/}
-          <Link to="/store">Store</Link>
+          <Link to="/">Store</Link>
         </div>
         <div className="home_headerRight">
           {/* Link -->Gmail*/}
-          <Link to="/gmail">Gmail</Link>
+          <Link to="/">Gmail</Link>
           {/* Link -->Images*/}
-          <Link to="/images">Images</Link>
+          <Link to="/">Images</Link>
           {/* Icon */}
           <AppsIcon />
           {/* Avatar */}
@@ -32,7 +32,7 @@ const Home = () => {
         />
         <div className="home_inputContainer">
           {/* Search */}
-          <Search hideButtons/>
+          <Search hideButtons={false}/>
         </div>
       </div>
     </div>
