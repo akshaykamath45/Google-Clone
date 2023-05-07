@@ -2,11 +2,12 @@ import "./App.css";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
 import { Routes, Route, Link } from "react-router-dom";
+import  SearchPage  from "./pages/SearchPage";
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/search" element={<Search/>}/>
+        <Route path="/search" element={<SearchPage/>}/>
         <Route path="/" element={<Home />} />
       </Routes>
 

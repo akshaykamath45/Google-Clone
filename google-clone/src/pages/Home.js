@@ -10,7 +10,7 @@ const Home = () => {
       <div className="home_header">
         <div className="home_headerLeft">
           {/* Link -->About*/}
-          <Link to="/about">About</Link>
+          <Link to="/">About</Link>
           {/* Link -->Store*/}
           <Link to="/store">Store</Link>
         </div>
@@ -32,7 +32,7 @@ const Home = () => {
         />
         <div className="home_inputContainer">
           {/* Search */}
-          <Search />
+          <Search hideButtons/>
         </div>
       </div>
     </div>
