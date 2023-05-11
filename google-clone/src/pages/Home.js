@@ -10,15 +10,15 @@ const Home = () => {
       <div className="home_header">
         <div className="home_headerLeft">
           {/* Link -->About*/}
-          <Link to="/">About</Link>
+          <Link to="https://about.google/">About</Link>
           {/* Link -->Store*/}
-          <Link to="/">Store</Link>
+          <Link to="https://store.google.com/">Store</Link>
         </div>
         <div className="home_headerRight">
           {/* Link -->Gmail*/}
-          <Link to="/">Gmail</Link>
+          <Link to="https://mail.google.com">Gmail</Link>
           {/* Link -->Images*/}
-          <Link to="/">Images</Link>
+          <Link to="https://www.google.co.in/imghp">Images</Link>
           {/* Icon */}
           <AppsIcon />
           {/* Avatar */}
